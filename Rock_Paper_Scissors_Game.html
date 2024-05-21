@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Rock Paper Scissors Game</title>
+       <link rel="stylesheet" href="Rock_Paper_Scissors_Game.css">
+    </head>
+    <body>
+       <script src="Rock_Paper_Scissors_Game.js"></script>
+       <p class="sub" id="sub">Rock Paper Scissors Game</p>
+       <p id="result">Result</p>
+       <p class="sub">Select the desired button to play the game :</p>
+    <div id="SScore">
+       <p>System score</p>
+       <p id="ScoreS">0</p>
+       <p>System choice</p>
+       <p id="SChoice"></p>
+    </div>
+    <div id="UScore">
+       <p>Your score</p>
+       <p id="ScoreU">0</p>
+       <p>Your choice</p>
+       <p id="UChoice"></p>
+    </div>
+    <div id="button">
+       <button id="rock" onclick="Rock(event)">Rock</button>
+       <button id="paper" onclick="Paper(event)">Paper</button>
+       <button id="scissors" onclick="Scissors(event)">Scissors</button>
+    </div>
+    </body>
+</html>

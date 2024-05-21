@@ -1,0 +1,72 @@
+body{
+    background-color: #70a1ff;
+    position: relative;
+    font-size: 20px;
+    outline: 0;
+}
+
+p{
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    margin: 30px;
+}
+
+p#sub{
+    font-weight: bold;
+}
+
+p#result{
+   color: yellow;
+   font-weight: bold;
+   display: none;
+}
+
+div#SScore{
+   text-align: center;
+   position: absolute;
+   color: #f5f6fa;
+   font-weight: bold;
+   top: 2px;
+   left: 2px;
+   display: none;
+}
+
+div#UScore{
+   text-align: center;
+   position: absolute;
+   color: #f5f6fa;
+   font-weight: bold;
+   top: 2px;
+   right: 2px;
+   display: none;
+}
+
+button{
+    display: inline;
+    margin: 15px auto;
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+div#button{
+    text-align: center;
+}
+
+button#rock{
+    background-color: #ff6b81;
+}
+
+button#paper{
+    background-color:#ffa502;
+}
+
+button#scissors{
+    background-color:#7bed9f;
+}
